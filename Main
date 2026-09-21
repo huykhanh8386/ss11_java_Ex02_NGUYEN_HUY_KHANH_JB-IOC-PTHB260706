@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class main {
+    static void main(String[] args) {
+        Shape circle = new Circle(5);
+        Shape rectangle = new Rectangle(4, 6);
+        Shape square = new Square(5);
+        System.out.println("===== CIRCLE =====");
+        System.out.println("Chu vi: " + circle.Primeter());
+        System.out.println("Diện tích: " + circle.Area());
+
+        System.out.println("===== RECTANGLE =====");
+        System.out.println("Chu vi: " + rectangle.Primeter());
+        System.out.println("Diện tích: " + rectangle.Area());
+
+        System.out.println("===== SQUARE =====");
+        System.out.println("Chu vi: " + square.Primeter());
+        System.out.println("Diện tích: " + square.Area());
+    }
+}
